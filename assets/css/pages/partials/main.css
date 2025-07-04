@@ -1,0 +1,17 @@
+main::-webkit-scrollbar {
+  width: 8px;
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: var(--shape-background);
+  border-radius: 4px;
+}
+
+main {
+  overflow: auto;
+  height: 100vh;
+  padding: 5rem;
+  width: 820px;
+  margin-right: auto;
+  background-color: var(--shape-body);
+}

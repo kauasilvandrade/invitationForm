@@ -1,0 +1,17 @@
+aside {
+  background: url(../../../images/Background.png) no-repeat center;
+  background-size: cover;
+  width: 400px;
+  margin-left: auto;
+  padding: 2rem;
+
+  img:nth-child(1) {
+    width: 2.8rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: var(--text-heading);
+  }
+}

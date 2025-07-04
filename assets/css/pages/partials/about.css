@@ -1,0 +1,54 @@
+.aboutFieldset {
+  
+  .flex:nth-child(4) {
+    align-items: stretch;
+  }
+
+  .event-type-group {
+    width: 100%;
+  }
+  
+  .event-type-options {
+    justify-content: center;
+    background-color: var(--input-base);
+    gap: 0;
+    border-radius: 8px;
+    border: 1px solid var(--input-stroke);
+    font: var(--body-md);
+    margin-top: 0.45rem;
+    padding: 4px;
+
+    .radio-wrapper {
+      border-radius: 4px;
+      padding: 0.76rem 2rem;
+      position: relative;
+      
+      &:has(input:checked), &:has(input:focus) {
+        background-color: var(--shape-button);
+        
+        svg {
+          stroke: var(--brand-light);
+        }
+        
+      }
+      
+      &:not(:has(input:checked)) {
+        background-color: transparent;
+        
+        svg {
+          stroke: var(--input-stroke);
+        }
+        
+      }
+      
+      input[type="radio"] {
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
+      }
+      
+    }
+    
+  }
+
+}
