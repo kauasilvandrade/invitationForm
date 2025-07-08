@@ -27,3 +27,13 @@ O formulário contém:
 ## 📸 Imagem do projeto
 
 <img src="assets/images/fotoSite.png">
+
+## 📌 Status do projeto
+
+✅ Projeto finalizado e publicado.
+
+## ✍️ Autor
+
+**Kauã da Silva Andrade**  
+[LinkedIn](https://www.linkedin.com/in/kauã-andrade-6440a9225)  
+[GitHub](https://github.com/kauasilvandrade)
