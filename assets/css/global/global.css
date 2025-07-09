@@ -39,13 +39,37 @@ legend {
   margin-bottom: 1.5rem;
 }
 
-.error {
-  color: var(--danger);
-  font: var(--body-xs);
-  margin-top: 0.7rem;
+@media (width <= 1040px) {
 
-  img {
-    width: 1rem;
-    height: 1rem;
+  .app aside, .app main {
+    width: 100%;
+    padding: 1.5rem;
   }
-}
+
+  .app, div.flex {
+    flex-direction: column;
+  }
+
+  /* ABOUT  */
+  .aboutFieldset div.event-type-options {
+    flex-direction: row;
+
+    .radio-wrapper {
+      padding: 0.76rem 5rem;
+    }
+  }
+
+  /* PERSONALIZATION */
+  .personalizationFieldset {
+    & .radio-group {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    & .theme-select .wallpaper {
+      text-align: center;
+      margin-top: 1rem; 
+    }
+  }
+
+} 
