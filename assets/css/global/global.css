@@ -41,6 +41,10 @@ legend {
 
 @media (width <= 1040px) {
 
+  body {
+    overflow: auto;
+  }
+
   .app aside, .app main {
     width: 100%;
     padding: 1.5rem;
@@ -53,10 +57,6 @@ legend {
   /* ABOUT  */
   .aboutFieldset div.event-type-options {
     flex-direction: row;
-
-    .radio-wrapper {
-      padding: 0.76rem 5rem;
-    }
   }
 
   /* PERSONALIZATION */
