@@ -1,19 +1,19 @@
 .invitationGeneration {
 
-  .checkbox-group {
+  & .checkbox-group {
     margin-bottom: 3rem;
 
-    .checkbox-wrapper {
+    & .checkbox-wrapper {
       margin-bottom: 1rem;
 
-      label {
+      & label {
         font: var(--body-xs);
         position: relative;
         padding-left: 2rem;
         cursor: pointer;
         gap: 0.3rem;
 
-        input {
+        & input {
           position: absolute;
           left: 0.2rem;
           height: 1rem;
@@ -48,7 +48,7 @@
           opacity: 1;
         }
 
-        a {
+        & a {
           color: var(--brand-light);
         }
   

@@ -1,14 +1,14 @@
 .aboutFieldset {
   
-  .flex:nth-child(4) {
+  & .flex:nth-child(4) {
     align-items: stretch;
   }
 
-  .event-type-group {
+  & .event-type-group {
     width: 100%;
   }
   
-  .event-type-options {
+  & .event-type-options {
     justify-content: center;
     background-color: var(--input-base);
     gap: 0;
@@ -18,7 +18,7 @@
     margin-top: 0.45rem;
     padding: 4px;
 
-    .radio-wrapper {
+    & .radio-wrapper {
       border-radius: 4px;
       padding: 0.76rem 2rem;
       width: 100%;
@@ -27,7 +27,7 @@
       &:has(input:checked), &:has(input:focus) {
         background-color: var(--shape-button);
         
-        svg {
+        & svg {
           stroke: var(--brand-light);
         }
         
@@ -36,13 +36,13 @@
       &:not(:has(input:checked)) {
         background-color: transparent;
         
-        svg {
+        & svg {
           stroke: var(--input-stroke);
         }
         
       }
       
-      input[type="radio"] {
+      & input[type="radio"] {
         position: absolute;
         inset: 0;
         cursor: pointer;

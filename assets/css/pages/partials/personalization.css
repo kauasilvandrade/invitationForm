@@ -1,18 +1,18 @@
 .personalizationFieldset {
   
-  legend {
+  & legend {
     padding-top: 3rem;
   }
 
-  label {
+  & label {
     display: block;
     margin-bottom: 1rem;
   }
   
-  .radio-group {
+  & .radio-group {
     justify-content: space-between;
     
-    input {
+    & input {
       position: relative;
       cursor: pointer;
       outline: none; 
@@ -79,13 +79,13 @@
     
   }
   
-  .theme-options {
+  & .theme-options {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(8.7rem, 1fr));
     gap: 0.7rem;
     margin-bottom: 1.7rem;
     
-    .radio-wrapper {
+    & .radio-wrapper {
       background-color: var(--shape-button);
       border-radius: 12px;
       padding: 0.37rem 0.31rem 0.6rem 0.31rem;
@@ -113,7 +113,7 @@
         opacity: 1;
       }
       
-      input[type="radio"] {
+      & input[type="radio"] {
         z-index: 2;
         position: absolute;
         appearance: auto;
@@ -122,13 +122,13 @@
         cursor: pointer;
       }
       
-      img {
+      & img {
         border-radius: 7px;
         width: 100%;
         margin-bottom: 0.18rem;
       }
       
-      span {
+      & span {
         color: var(--text-heading);
         display: block;
         text-align: center;
@@ -136,15 +136,15 @@
     }
   }
   
-  .theme-select {
+  & .theme-select {
     justify-content: space-between;
 
-    .actions {
+    & .actions {
       display: flex;
       gap: 1rem;
       align-items: center;
 
-      .theme-toggle {
+      & .theme-toggle {
         border-radius: 999px;
         width: 4rem;
         height: 2.1rem;
@@ -156,11 +156,11 @@
           background-color: var(--brand-light);
         }
 
-        input:focus {
+        & input:focus {
           outline: none;
         }
         
-        #btn-theme {
+        & #btn-theme {
           position: absolute;
           inset: 0;
           transition: .3s;
@@ -199,7 +199,7 @@
 
       }
 
-      .theme-label {
+      & .theme-label {
         left: 5rem;
         top: 0.3rem;
         margin-bottom: 0;
@@ -216,10 +216,10 @@
 
   }
 
-  .upload-container {
+  & .upload-container {
     position: relative;
     
-    input {
+    & input {
       opacity: 0;
       position: absolute;
       inset: 0;
@@ -228,11 +228,11 @@
       cursor: pointer;
     }
 
-    input:focus ~ .select {
+    & input:focus ~ .select {
       border: 1px solid var(--brand-light);
     }
 
-    .select {
+    & .select {
       display: flex;
       align-items: center;
       z-index: 1;
@@ -245,7 +245,7 @@
       cursor: pointer;
       transition: .5s;
 
-      img {
+      & img {
         width: 1rem;
         height: 1rem;
       }
@@ -255,7 +255,7 @@
       }
     }
 
-    span {
+    & span {
       color: var(--input-placeholder);
       font: var(--body-md);
     }

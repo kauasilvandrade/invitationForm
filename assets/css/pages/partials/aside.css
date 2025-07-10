@@ -5,13 +5,13 @@ aside {
   margin-left: auto;
   padding: 2rem;
 
-  img:nth-child(1) {
+  & img:nth-child(1) {
     width: 2.8rem;
     height: 3rem;
     margin-bottom: 1rem;
   }
 
-  p {
+  & p {
     color: var(--text-heading);
   }
 }
